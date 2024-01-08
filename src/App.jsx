@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar/Navbar"
+import Header from "./components/header/Header"
 import Sidebar from "./components/sidebar/Sidebar"
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="flex items-start">
       <Sidebar />
-      <Navbar />
+      <Header />
     </div>
   )
 }
