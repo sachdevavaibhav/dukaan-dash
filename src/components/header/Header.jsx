@@ -5,7 +5,7 @@ import SearchInput from "../searchInput/SearchInput";
 
 function Navbar() {
     return (
-        <nav className="navbar bg-white border-b border-b-[#D9D9D9] font-inter px-10">
+        <header className="navbar bg-white border-b border-b-[#D9D9D9] font-inter px-10 py-3">
             <div className="navbar-start flex items-center">
                 <span className="font-normal mr-3 text-primary text-lg">Payments</span>
                 <div className="flex items-center gap-1 text-xs text-secondary">
@@ -26,7 +26,7 @@ function Navbar() {
                     <img src={menuIcon1} alt="" />
                 </button>
             </div>
-        </nav>
+        </header>
     )
 };
 

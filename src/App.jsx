@@ -1,4 +1,4 @@
-import Header from "./components/header/Header"
+import Payments from "./pages/payments/Payments";
 import Sidebar from "./components/sidebar/Sidebar"
 
 function App() {
@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="flex items-start">
       <Sidebar />
-      <Header />
+      <Payments />
     </div>
   )
 }
 
-export default App
+export default App;

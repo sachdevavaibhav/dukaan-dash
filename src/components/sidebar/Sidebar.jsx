@@ -5,7 +5,7 @@ import walletIcon from "../../assets/icons/wallet.svg";
 
 function Sidebar() {
     return (
-        <div className="relative flex flex-col bg-navy text-white h-screen w-full max-w-[14rem]">
+        <div className="fixed left-0 flex flex-col bg-navy text-white h-screen w-full max-w-[14rem]">
             <div className="mb-2 p-4 flex justify-between items-center">
                 <div className="flex gap-2">
                     <div className="avatar">
@@ -18,7 +18,7 @@ function Sidebar() {
                         <span className="text-xs font-inter font-normal underline">Visit Store</span>
                     </div>
                 </div>
-                <div>
+                <div role="button">
                     <img src={chevronDownIcon} />
                 </div>
             </div>
