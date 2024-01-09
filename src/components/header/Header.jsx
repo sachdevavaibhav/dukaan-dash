@@ -13,7 +13,7 @@ function Navbar() {
                     <span>How it works?</span>
                 </div>
             </div>
-            <div className="navbar-center w-1/3">
+            <div className="navbar-center w-1/3 hidden md:block">
                 <SearchInput
                     placeholder={"Search features, tutorials, etc."}
                 />

@@ -11,15 +11,15 @@ function Pagination() {
                 </button>
             </div>
             <div className="join xl:mx-8">
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">1</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">...</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">1</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">...</button>
                 <button className="no-animation font-normal text-xs xl:text-sm text-white font-inter xl:mx-1 btn bg-link rounded-md hover:bg-link">10</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">11</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">12</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">13</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">14</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">15</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">16</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">11</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">12</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">13</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">14</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">15</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden md:block">16</button>
                 <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden lg:block">17</button>
                 <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden lg:block">18</button>
             </div>
