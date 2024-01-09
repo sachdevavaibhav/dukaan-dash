@@ -8,7 +8,7 @@ function Sidebar() {
             <div className="drawer absolute lg:hidden top-4 left-3 overflow-hidden">
                 <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content">
-                        <label htmlFor="my-drawer" className="drawer-button h-full">
+                        <label htmlFor="my-drawer" className="drawer-button block h-full">
                             <img src={hamburgerIcon} alt="Navigation Menu" />
                         </label>
                     </div>
