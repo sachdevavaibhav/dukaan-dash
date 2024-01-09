@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header"
 import StatCard from "../../components/statCard/StatCard";
 import Table from "./components/Table";
+import Pagination from "./components/Pagination.jsx";
 import {data} from "./data.js"
 
 function Payments() {
@@ -21,6 +22,9 @@ function Payments() {
                 </div>
                 <div className="mb-7 bg-white rounded-lg p-5">
                     <Table data={data} />
+                    <div className="w-full flex justify-center mt-5">
+                        <Pagination />
+                    </div>
                 </div>
             </section>
         </div>

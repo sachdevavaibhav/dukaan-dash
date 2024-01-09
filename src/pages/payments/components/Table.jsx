@@ -1,5 +1,6 @@
 import triangleIcon from '../../../assets/icons/Triangle-Icon.svg';
 import infoIcon from '../../../assets/icons/Info.svg';
+
 function Table({data}) {
     return (
         <div className="overflow-x-auto">
