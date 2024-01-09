@@ -20,8 +20,8 @@ function Pagination() {
                 <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">14</button>
                 <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">15</button>
                 <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">16</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">17</button>
-                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent">18</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden lg:block">17</button>
+                <button className="no-animation font-normal text-xs xl:text-sm text-secondary font-inter xl:mx-1 btn bg-transparent border-none hover:bg-transparent hidden lg:block">18</button>
             </div>
             <div>
                 <button className="btn no-animation bg-transparent text-secondary font-medium text-xs xl:text-sm border border-[#D9D9D9] hover:border-[#D9D9D9] hover:bg-transparent">

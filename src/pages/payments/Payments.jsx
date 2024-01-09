@@ -10,9 +10,9 @@ import downArrowIcon from "../../assets/icons/arrow.svg";
 
 function Payments() {
     return (
-        <div className="w-full ps-56">
+        <div className="w-full lg:ps-52 xl:ps-56">
             <Header/>
-            <section className="px-10 pt-10">
+            <section className="px-4 xl:px-10 pt-10">
                 <div className="flex justify-between mb-7">
                     <h2 className="text-xl font-inter font-medium text-primary">Overview</h2>
                     <button className="btn no-animation bg-transparent text-secondary font-medium text-sm border border-[#D9D9D9] hover:border-[#D9D9D9] hover:bg-transparent">
